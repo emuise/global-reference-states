@@ -1,0 +1,34 @@
+# RStudio / R session
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# renv: keep renv.lock, renv/activate.R and renv/settings.json; ignore the library
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# Downloaded inputs and pipeline outputs (large, reproducible from the script)
+data/
+out/
+*.part
+
+# Large spatial files that end up outside data/ or out/
+*.tif
+*.tif.aux.xml
+*.vrt
+*.gdb/
+*.parquet
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
